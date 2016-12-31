@@ -25,10 +25,10 @@ getInitialState() {
  componentDidMount: function() {
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '1785668921682645',
+      appId      : '1982930645267717',
       cookie     : true, 
       xfbml      : true,  
-      version    : 'v2.1' 
+      version    : 'v2.8' 
     });
 
     FB.getLoginStatus(function(response) {
