@@ -1,7 +1,7 @@
 {
 	"name": "node.js getting started",
 	"description": "A barebones Nodejs App",
-	"repository": "https://github.com/prakashchandrabarnwal/facebookoauthlogin.git",
+	"repository": "https://github.com/prakash-barnwal/happynewyear.git",
 	"keywords": ["node","express","static"],
 	"image": "heroku/nodejs"
 }
