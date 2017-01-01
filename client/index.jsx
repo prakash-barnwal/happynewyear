@@ -68,14 +68,15 @@ handleClick: function() {
 		console.log("state status",this.state.Loginstatus);
 		return <MuiThemeProvider>
 			<div>
-			<AppBar style={{background: '#007acc'}}
+			
+			{this.state.Loginstatus?
+        <div class="container">
+        <AppBar style={{background: '#007acc'}}
     title={<div style={{cursor: 'pointer',textAlign:'center', fontFamily: "Brush Script MT", fontSize:"50px"}}>Happy New Year</div>}
     onTitleTouchTap={handleTouchTap}
     iconElementLeft={<IconButton></IconButton>}
     iconElementRight={<FlatButton label="Save" />}
   />
-			{this.state.Loginstatus?
-        <div class="container">
  <div className="balloon" style={{marginLeft:"10%"}}>
     
 	<div><span>H</span></div>

@@ -144,19 +144,19 @@
 	      _react2.default.createElement(
 	        "div",
 	        null,
-	        _react2.default.createElement(_AppBar2.default, { style: { background: '#007acc' },
-	          title: _react2.default.createElement(
-	            "div",
-	            { style: { cursor: 'pointer', textAlign: 'center', fontFamily: "Brush Script MT", fontSize: "50px" } },
-	            "Happy New Year"
-	          ),
-	          onTitleTouchTap: handleTouchTap,
-	          iconElementLeft: _react2.default.createElement(_IconButton2.default, null),
-	          iconElementRight: _react2.default.createElement(_FlatButton2.default, { label: "Save" })
-	        }),
-	        !this.state.Loginstatus ? _react2.default.createElement(
+	        this.state.Loginstatus ? _react2.default.createElement(
 	          "div",
 	          { "class": "container" },
+	          _react2.default.createElement(_AppBar2.default, { style: { background: '#007acc' },
+	            title: _react2.default.createElement(
+	              "div",
+	              { style: { cursor: 'pointer', textAlign: 'center', fontFamily: "Brush Script MT", fontSize: "50px" } },
+	              "Happy New Year"
+	            ),
+	            onTitleTouchTap: handleTouchTap,
+	            iconElementLeft: _react2.default.createElement(_IconButton2.default, null),
+	            iconElementRight: _react2.default.createElement(_FlatButton2.default, { label: "Save" })
+	          }),
 	          _react2.default.createElement(
 	            "div",
 	            { className: "balloon", style: { marginLeft: "10%" } },
