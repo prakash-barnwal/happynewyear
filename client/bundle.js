@@ -84,9 +84,7 @@
 
 	(0, _reactTapEventPlugin2.default)();
 
-	function handleTouchTap() {
-	  document.location.href = "https://www.facebook.com/prakash.barnwal.37";
-	}
+	function handleTouchTap() {}
 
 	var Login = _react2.default.createClass({
 	  displayName: "Login",
@@ -98,10 +96,10 @@
 	  componentDidMount: function componentDidMount() {
 	    window.fbAsyncInit = function () {
 	      FB.init({
-	        appId: '1785668921682645',
+	        appId: '1982930645267717',
 	        cookie: true,
 	        xfbml: true,
-	        version: 'v2.1'
+	        version: 'v2.8'
 	      });
 
 	      FB.getLoginStatus(function (response) {
@@ -156,7 +154,7 @@
 	          iconElementLeft: _react2.default.createElement(_IconButton2.default, null),
 	          iconElementRight: _react2.default.createElement(_FlatButton2.default, { label: "Save" })
 	        }),
-	        this.state.Loginstatus ? _react2.default.createElement(
+	        !this.state.Loginstatus ? _react2.default.createElement(
 	          "div",
 	          { "class": "container" },
 	          _react2.default.createElement(
@@ -323,7 +321,7 @@
 	          { style: { position: "absolute", bottom: "0", right: "0", padding: "3px" } },
 	          _react2.default.createElement(
 	            "a",
-	            { href: "https://www.facebook.com/prakash.barnwal.37" },
+	            { href: "https://www.facebook.com/bikky.barnwal" },
 	            _react2.default.createElement("i", { className: "fa fa-facebook-official", style: { fontSize: "20px", color: "blue" } }),
 	            " Prakash Barnwal"
 	          )
