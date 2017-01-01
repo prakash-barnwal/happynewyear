@@ -74,7 +74,7 @@ handleClick: function() {
     iconElementLeft={<IconButton></IconButton>}
     iconElementRight={<FlatButton label="Save" />}
   />
-			{!this.state.Loginstatus?
+			{this.state.Loginstatus?
         <div class="container">
  <div className="balloon" style={{marginLeft:"10%"}}>
     
